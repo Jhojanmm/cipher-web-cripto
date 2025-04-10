@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Seleccionar Moneda</title>
+</head>
+<body style="background-color:#121212; color:white; text-align:center; padding-top: 100px;">
+    <h1>Selecciona el par y la temporalidad</h1>
+    <form method="POST" action="/">
+        <label>Par (ej. BTCUSDT):</label><br>
+        <input type="text" name="symbol" value="BTCUSDT"><br><br>
+        <label>Temporalidad:</label><br>
+        <select name="timeframe">
+            <option>1m</option><option>15m</option><option>1h</option><option>2h</option>
+            <option>3h</option><option>4h</option><option>1d</option><option>1w</option>
+        </select><br><br>
+        <input type="submit" value="Graficar">
+    </form>
+</body>
+</html>

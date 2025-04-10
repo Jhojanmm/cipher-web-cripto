@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: bot-trading
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python app.py"
+    envVars:
+      - key: PYTHONUNBUFFERED
+        value: "1"
+    buildFilter:
+      paths:
+        - main.py
+        - models/**
+        - templates/**
+        - static/**
+        - requirements.txt

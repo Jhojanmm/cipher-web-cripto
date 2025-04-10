@@ -1,0 +1,10 @@
+pandas==1.5.3
+pandas-ta==0.3.14b0
+python-binance==1.0.28
+pyTelegramBotAPI==4.26.0
+numpy==1.23.5
+flask
+requests
+joblib
+scikit-learn
+binance
