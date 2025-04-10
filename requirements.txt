@@ -8,3 +8,4 @@ requests
 joblib
 scikit-learn
 binance
+plotly
